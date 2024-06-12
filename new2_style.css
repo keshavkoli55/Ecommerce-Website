@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.pious-logo {
+    width: 180px;
+    height: 70px;
+}
+
+.icon-nav {
+    margin-right: 1px;
+    font-size: 15px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Begamsnas";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Begamsnas";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Begamsnas";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Begamsnas";
+}
+
+.custom-card {
+    background-image: linear-gradient(#d0b200, #a58d00);
+}
+
+.banner-heading {
+    color: #1d0230;
+    font-family: Begamsnas, Sans-Serif;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.wcu-section {
+    background-image: url("/images/background-image.11jpg.jfif");
+}
+
+.wcu-section-heading {
+    font-family: Begamsnas;
+}
+
+.wcu-section-description {
+    font-family: Begamsnas;
+    font-size: 13px;
+
+}
+
+.LOAD-custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 250px;
+    height: 34px;
+    border-width: 0;
+    border-radius: 2px;
+    margin-right: 10px;
+    font-family: "Begamsnas";
+}
+
+.custom-button {
+    color: black;
+    text-align: center;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-family: "Begamsnas";
+}
+
+.LOAD-custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 250px;
+    height: 34px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-family: "Begamsnas";
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Begamsnas";
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Begamsnas";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.thanking-customers-section-modal-title {
+    color: black;
+    font-weight: 200;
+    font-family: "Begamsnas";
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:2rem;
+    margin-bottom: 2rem;
+}
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Begamsnas";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    margin: 14px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-right: 30px;
+    padding-left: 17px;
+    text-align: center;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 25px;
+}
+
+.footer-section {
+    background-color: #ffffff;
+    height: 180px;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+
+
+.podcast-cards-container {
+    padding: 15px;
+}
+
+.style-span {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "roboto";
+}
+
+.mrp {
+    color: #d0b200;
+    font-size: 14px;
+}
+
+.add-to-button {
+    color: #d0b200;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 250px;
+    height: 51px;
+    border-radius: 0px;
+    font-family: "Begamsnas";
+}
+
+.circle-image-container {
+    background-color: white;
+    border-color: red;
+    border: 5px;
+    border-width: 10px;
+}
+
+.image-circle {
+    height: 15vh;
+    width: 15vh;
+    border-radius: 80px;
+    margin: 5px;
+    border-color: red;
+    border: 5px;
+    border-width: 10px;
+}
+
+.buy-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 250px;
+    height: 51px;
+    border-width: 0;
+    border-radius: 0px;
+    margin-right: 10px;
+    font-family: "Begamsnas";
+}
+
+.choose-drop-down-text {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "begamsnas";
+
+}
+
+.rupee-icon {
+    font-size: 12px;
+
+}
+
+.fit-section {
+    color: white;
+    background-color: black;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.foot-plane1 {
+    height: 45px;
+    background-color: #37475a;
+    color: white;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-section-address{
+    padding-left: 2%;
+    font-size: 12px;
+    padding-top: 15px;
+    color: #959ead;
+    font-family: "Roboto";
+    
+  }
+  .foot-plane2 {
+    height: 350px;
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    /* align-items: center; */
+  }
+  ul p {
+    color: #dddddd;
+    margin-top: 40px;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  li {
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 0.85rem;
+  }
+  .foot-panel3 {
+    border-top: 0.5px solid white;
+    background-size: cover;
+    height: 90px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* footer 4 */
+.foot-panel4{
+    background-color: #131A22;
+    color:#dddddd;
+    font-size:0.7rem;
+    height:60px;
+    font-weight: 600;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .foot-copyright{
+    padding-top: 10px;
+  }
+  .foot-panel4 p{
+    margin-top: 7px;
+  }

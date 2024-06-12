@@ -1,0 +1,1781 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="new_style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navcolor navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand mr-auto" href="#">
+          <img
+            src="https://img.freepik.com/free-vector/poster-navaratri-festival_1308-35708.jpg"
+            class="food-munch-logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" id="navItem1" href="#wcuSection">
+              Why Choose Us?
+              <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link" href="#exploreMenuSection" id="navItem2"
+              >Explore Menu</a
+            >
+            <a class="nav-link" href="#deliveryPaymentSection" id="navItem3"
+              >Delivery & Payment</a
+            >
+            <a class="nav-link" href="#followUsSection" id="navItem4"
+              >Follow Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--div start home page-->
+    <div id="sectionHomePage">
+      <div
+        class="banner-section-bg-container d-flex justify-content-start flex-column"
+      >
+        <img
+          src="https://www.tasva.com/cdn/shop/collections/6-Web-banner-1500x500_2048x.jpg"
+        />
+      </div>
+      <div class="wcu-section pb-5 pt-5" id="wcuSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="wcu-section-heading">Dhoti, Kurta & Pajamas</h1>
+              <p class="wcu-section-description">
+                We use both original recipes and classic versions of famous food
+                items.
+              </p>
+            </div>
+            <!-- carousel section-->
+            <div class="col-12 col-md-6">
+              <div class="podcast-cards-container">
+                <div class="d-flex flex-row">
+                  <!--first-->
+                  <div class="card ShadowClass mr-3" style="width: 16rem">
+                    <img
+                      src="images/05.jpg"
+                      class="card-img-top"
+                      onclick="display('sectionFirstCardInnerPage')"
+                      alt="..."
+                    />
+                    <div class="text-center d-block">
+                      <button
+                        type="button"
+                        class="custom-button"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
+                      >
+                        Quick View
+                      </button>
+                    </div>
+                    <div
+                      class="modal fade"
+                      id="exampleModal"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog mt-5">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title thanking-customers-section-modal-title"
+                              id="exampleModalLabel"
+                            >
+                              Quick View
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <!--quick view carousel-->
+                            <div
+                              id="carouselExampleIndicators"
+                              class="carousel slide"
+                              data-ride="carousel"
+                            >
+                              <ol class="carousel-indicators">
+                                <li
+                                  data-target="#carouselExampleIndicators"
+                                  data-slide-to="0"
+                                  class="active"
+                                ></li>
+                                <li
+                                  data-target="#carouselExampleIndicators"
+                                  data-slide-to="1"
+                                ></li>
+                                <li
+                                  data-target="#carouselExampleIndicators"
+                                  data-slide-to="2"
+                                ></li>
+                              </ol>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img
+                                    src="/images/06.jpg"
+                                    class="d-block w-100"
+                                    alt="..."
+                                  />
+                                </div>
+                                <div class="carousel-item">
+                                  <img
+                                    src="/images/08.jpg"
+                                    class="d-block w-100"
+                                    alt="..."
+                                  />
+                                </div>
+                                <div class="carousel-item">
+                                  <img
+                                    src="/images/05.jpg"
+                                    class="d-block w-100"
+                                    alt="..."
+                                  />
+                                </div>
+                                <div class="carousel-item">
+                                  <img
+                                    src="/images/07.jpg"
+                                    class="d-block w-100"
+                                    alt="..."
+                                  />
+                                </div>
+                              </div>
+                              <a
+                                class="carousel-control-prev"
+                                href="#carouselExampleIndicators"
+                                role="button"
+                                data-slide="prev"
+                              >
+                                <span
+                                  class="carousel-control-prev-icon"
+                                  aria-hidden="true"
+                                >
+                                </span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a
+                                class="carousel-control-next"
+                                href="#carouselExampleIndicators"
+                                role="button"
+                                data-slide="next"
+                              >
+                                <span
+                                  class="carousel-control-next-icon"
+                                  aria-hidden="true"
+                                >
+                                </span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--second-->
+                  <div class="card" style="width: 16rem">
+                    <img
+                      src="/images/09.jpg"
+                      class="card-img-top"
+                      onclick="display('sectionSecondCardInnerPage')"
+                      alt="..."
+                    />
+                    <button
+                      type="button"
+                      class="custom-button"
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                    >
+                      Quick View
+                    </button>
+                    <div
+                      class="modal fade"
+                      id="exampleModal"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog mt-5">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title thanking-customers-section-modal-title"
+                              id="exampleModalLabel"
+                            >
+                              Gift Voucher
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div
+                              id="carouselExampleIndicators"
+                              class="carousel slide"
+                              data-ride="carousel"
+                            >
+                              <ol class="carousel-indicators">
+                                <li
+                                  data-target="#carouselExampleIndicators"
+                                  data-slide-to="0"
+                                  class="active"
+                                ></li>
+                                <li
+                                  data-target="#carouselExampleIndicators"
+                                  data-slide-to="1"
+                                ></li>
+                                <li
+                                  data-target="#carouselExampleIndicators"
+                                  data-slide-to="2"
+                                ></li>
+                              </ol>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img
+                                    src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                                    class="d-block w-100"
+                                    alt="..."
+                                  />
+                                </div>
+                                <div class="carousel-item">
+                                  <img
+                                    src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                                    class="d-block w-100"
+                                    alt="..."
+                                  />
+                                </div>
+                                <div class="carousel-item">
+                                  <img
+                                    src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                                    class="d-block w-100"
+                                    alt="..."
+                                  />
+                                </div>
+                              </div>
+                              <a
+                                class="carousel-control-prev"
+                                href="#carouselExampleIndicators"
+                                role="button"
+                                data-slide="prev"
+                              >
+                                <span
+                                  class="carousel-control-prev-icon"
+                                  aria-hidden="true"
+                                >
+                                </span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a
+                                class="carousel-control-next"
+                                href="#carouselExampleIndicators"
+                                role="button"
+                                data-slide="next"
+                              >
+                                <span
+                                  class="carousel-control-next-icon"
+                                  aria-hidden="true"
+                                >
+                                </span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- carousel section-->
+            <div class="col-12 col-md-6">
+              <div class="podcast-cards-container">
+                <div class="d-flex flex-row">
+                  <!--third-->
+                  <div class="card mr-3" style="width: 16rem">
+                    <img
+                      src="https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-ukranian-shirt_23-2149318757.jpg"
+                      class="card-img-top"
+                      onclick="display('sectionThirdCardInnerPage')"
+                      alt="..."
+                    />
+                    <p>3</p>
+                  </div>
+                  <!--fourth-->
+                  <div class="card" style="width: 16rem">
+                    <img
+                      src="https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-ukranian-shirt_23-2149318757.jpg"
+                      class="card-img-top"
+                      onclick="display('sectionFourthCardInnerPage')"
+                      alt="..."
+                    />
+                    <p>4</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- carousel section-->
+            <div class="col-12 col-md-6">
+              <div class="podcast-cards-container">
+                <div class="d-flex flex-row">
+                  <!--five-->
+                  <div class="card mr-3" style="width: 16rem">
+                    <img
+                      src="https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-ukranian-shirt_23-2149318757.jpg"
+                      class="card-img-top"
+                      onclick="display('sectionFifthCardInnerPage')"
+                      alt="..."
+                    />
+                    <p>5</p>
+                  </div>
+                  <!--six-->
+                  <div class="card" style="width: 16rem">
+                    <img
+                      src="https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-ukranian-shirt_23-2149318757.jpg"
+                      class="card-img-top"
+                      onclick="display('sectionSixthCardInnerPage')"
+                      alt="..."
+                    />
+                    <p>6</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- carousel section-->
+            <div class="col-12 col-md-6">
+              <div class="podcast-cards-container">
+                <div class="d-flex flex-row">
+                  <!--seven-->
+                  <div class="card mr-3" style="width: 16rem">
+                    <img
+                      src="https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-ukranian-shirt_23-2149318757.jpg"
+                      class="card-img-top"
+                      onclick="display('sectionSeventhCardInnerPage')"
+                      alt="..."
+                    />
+                    <p>7</p>
+                  </div>
+                  <!--eight-->
+                  <div class="card" style="width: 16rem">
+                    <img
+                      src="https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-ukranian-shirt_23-2149318757.jpg"
+                      class="card-img-top"
+                      onclick="display('sectionEightCardInnerPage')"
+                      alt="..."
+                    />
+                    <p>8</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="podcast-cards-container">
+                <div class="d-flex flex-row">
+                  <!--nine-->
+                  <div class="card mr-3" style="width: 16rem">
+                    <img
+                      src="https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-ukranian-shirt_23-2149318757.jpg"
+                      class="card-img-top"
+                      onclick="display('sectionNineCardInnerPage')"
+                      alt="..."
+                    />
+                    <p>9</p>
+                  </div>
+                  <!--ten-->
+                  <div class="card" style="width: 16rem">
+                    <img
+                      src="https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-ukranian-shirt_23-2149318757.jpg"
+                      class="card-img-top"
+                      onclick="display('sectionTenCardInnerPage')"
+                      alt="..."
+                    />
+                    <p>10</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+              <button class="LOAD-custom-button" type="submit">
+                LOAD MORE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="thanking-customers-section pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 col-md-7 d-flex flex-column justify-content-center"
+            >
+              <h1 class="thanking-customers-section-heading">
+                Thank you for being a valuable customer to us.
+              </h1>
+              <p class="thanking-customers-section-description">
+                We have a surprise gift for you
+              </p>
+              <div class="d-md-none">
+                <img
+                  src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"
+                  class="thanking-customers-section-img"
+                />
+              </div>
+              <div>
+                <button
+                  type="button"
+                  class="custom-button"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  Redeem Gift
+                </button>
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog mt-5">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5
+                          class="modal-title thanking-customers-section-modal-title"
+                          id="exampleModalLabel"
+                        >
+                          Gift Voucher
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          id="carouselExampleIndicators"
+                          class="carousel slide"
+                          data-ride="carousel"
+                        >
+                          <ol class="carousel-indicators">
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="0"
+                              class="active"
+                            ></li>
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="1"
+                            ></li>
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="2"
+                            ></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img
+                                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                                class="d-block w-100"
+                                alt="..."
+                              />
+                            </div>
+                          </div>
+                          <a
+                            class="carousel-control-prev"
+                            href="#carouselExampleIndicators"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            >
+                            </span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a
+                            class="carousel-control-next"
+                            href="#carouselExampleIndicators"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                            >
+                            </span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 d-none d-md-block">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"
+                class="thanking-customers-section-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-section pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <img
+                src="https://img.freepik.com/free-vector/poster-navaratri-festival_1308-35708.jpg"
+                class="food-munch-logo"
+              />
+              <h1 class="footer-section-mail-id">orderfood@foodmunch.com</h1>
+              <p class="footer-section-address">
+                BLOCK B-3, HOUSE NO. 445, FIRST FLOOR, BEHIND BG-8, DDA MARKET,
+                PACHIM VIHAR, NEW DELHI-110063
+              </p>
+              <div class="col-12">
+                <div class="col-12">
+                  <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="follow-us-icon-container">
+                    <i class="fab fa-twitter icon"></i>
+                  </div>
+                  <div class="follow-us-icon-container">
+                    <i class="fab fa-instagram icon"></i>
+                  </div>
+                  <div class="follow-us-icon-container">
+                    <i class="fab fa-facebook icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.929831438345!2d77.09908590831334!3d28.661819600434363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d047f10f04943%3A0xd8e5ab7903b796ac!2sBG-8%20Garbage%20dump!5e0!3m2!1sen!2sin!4v1697739738627!5m2!1sen!2sin"
+            width="400"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="footer-last">
+        <i class="fa-regular fa-face-smile" style="color: #ffffff;"></i>
+        24x7 Customer Support 
+        <i class="fa-solid fa-truck-fast" style="color: #ffffff;"></i>Free Shipping
+        <i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i>Easy
+        Returns <i class="fa-solid fa-shirt" style="color: #ffffff;"></i>Custom Fitting
+        </div>
+        <p class="copyright">
+          &copy 2023 All Right Reserved To info@paruskurt.com
+        </p>
+      </div>
+    </div>
+    <!--div end home page-->
+    <div id="sectionFirstCardInnerPage">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/images/08.jpg" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="/images/07.jpg" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="/images/05.jpg" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="/images/06.jpg" alt="..." />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="name-about-product">
+              <h3 class="wcu-section-heading mt-3">Pink Jacquard Kurta Set</h3>
+              <p class="wcu-section-description">
+                <span class="style-span">STYLE CODE:</span>
+                TMKGBA2324
+              </p>
+            </div>
+            <div class="MRP-container d-flex flex-row">
+              <p class="mrp">
+                <span class="style-span">MRP</span>
+                <i class="fad fa-rupee icon"></i>
+                1,999
+              </p>
+              <p class="ml-auto">Inclusive of all taxes</p>
+            </div>
+
+            <div class="d-flex flex-row fixed-bottom">
+              <button class="add-to-button col-6" type="submit">
+                ADD TO CART
+              </button>
+              <button class="buy-button col-6" type="submit">BUY IT NOW</button>
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="display('sectionHomePage')"
+            >
+              back
+            </button>
+
+            <div class="circle-image-container">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                class="image-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sectionSecondCardInnerPage">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="name-about-product">
+              <h3 class="wcu-section-heading mt-3">Pink Jacquard Kurta Set</h3>
+              <p class="wcu-section-description">
+                <span class="style-span">STYLE CODE:</span>
+                TMKGBA2324
+              </p>
+            </div>
+            <div class="MRP-container d-flex flex-row">
+              <p class="mrp">
+                <span class="style-span">MRP</span>
+                <i class="fad fa-rupee icon"></i>
+                1,999
+              </p>
+              <p class="ml-auto">Inclusive of all taxes</p>
+            </div>
+
+            <div class="d-flex flex-row fixed-bottom">
+              <button class="add-to-button col-6" type="submit">
+                ADD TO CART
+              </button>
+              <button class="buy-button col-6" type="submit">BUY IT NOW</button>
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="display('sectionHomePage')"
+            >
+              back
+            </button>
+
+            <div class="circle-image-container">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                class="image-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--third card-->
+    <div id="sectionThirdCardInnerPage">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="name-about-product">
+              <h3 class="wcu-section-heading mt-3">Pink Jacquard Kurta Set</h3>
+              <p class="wcu-section-description">
+                <span class="style-span">STYLE CODE:</span>
+                TMKGBA2324
+              </p>
+            </div>
+            <div class="MRP-container d-flex flex-row">
+              <p class="mrp">
+                <span class="style-span">MRP</span>
+                <i class="fad fa-rupee icon"></i>
+                1,999
+              </p>
+              <p class="ml-auto">Inclusive of all taxes</p>
+            </div>
+
+            <div class="d-flex flex-row fixed-bottom">
+              <button class="add-to-button col-6" type="submit">
+                ADD TO CART
+              </button>
+              <button class="buy-button col-6" type="submit">BUY IT NOW</button>
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="display('sectionHomePage')"
+            >
+              back
+            </button>
+
+            <div class="circle-image-container">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                class="image-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fourth card-->
+    <div id="sectionFourthCardInnerPage">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="name-about-product">
+              <h3 class="wcu-section-heading mt-3">Pink Jacquard Kurta Set</h3>
+              <p class="wcu-section-description">
+                <span class="style-span">STYLE CODE:</span>
+                TMKGBA2324
+              </p>
+            </div>
+            <div class="MRP-container d-flex flex-row">
+              <p class="mrp">
+                <span class="style-span">MRP</span>
+                <i class="fad fa-rupee icon"></i>
+                1,999
+              </p>
+              <p class="ml-auto">Inclusive of all taxes</p>
+            </div>
+
+            <div class="d-flex flex-row fixed-bottom">
+              <button class="add-to-button col-6" type="submit">
+                ADD TO CART
+              </button>
+              <button class="buy-button col-6" type="submit">BUY IT NOW</button>
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="display('sectionHomePage')"
+            >
+              back
+            </button>
+
+            <div class="circle-image-container">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                class="image-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fifith card-->
+    <div id="sectionFifthCardInnerPage">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="name-about-product">
+              <h3 class="wcu-section-heading mt-3">Pink Jacquard Kurta Set</h3>
+              <p class="wcu-section-description">
+                <span class="style-span">STYLE CODE:</span>
+                TMKGBA2324
+              </p>
+            </div>
+            <div class="MRP-container d-flex flex-row">
+              <p class="mrp">
+                <span class="style-span">MRP</span>
+                <i class="fad fa-rupee icon"></i>
+                1,999
+              </p>
+              <p class="ml-auto">Inclusive of all taxes</p>
+            </div>
+
+            <div class="d-flex flex-row fixed-bottom">
+              <button class="add-to-button col-6" type="submit">
+                ADD TO CART
+              </button>
+              <button class="buy-button col-6" type="submit">BUY IT NOW</button>
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="display('sectionHomePage')"
+            >
+              back
+            </button>
+
+            <div class="circle-image-container">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                class="image-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--sixth card-->
+    <div id="sectionSixthCardInnerPage">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="name-about-product">
+              <h3 class="wcu-section-heading mt-3">Pink Jacquard Kurta Set</h3>
+              <p class="wcu-section-description">
+                <span class="style-span">STYLE CODE:</span>
+                TMKGBA2324
+              </p>
+            </div>
+            <div class="MRP-container d-flex flex-row">
+              <p class="mrp">
+                <span class="style-span">MRP</span>
+                <i class="fad fa-rupee icon"></i>
+                1,999
+              </p>
+              <p class="ml-auto">Inclusive of all taxes</p>
+            </div>
+
+            <div class="d-flex flex-row fixed-bottom">
+              <button class="add-to-button col-6" type="submit">
+                ADD TO CART
+              </button>
+              <button class="buy-button col-6" type="submit">BUY IT NOW</button>
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="display('sectionHomePage')"
+            >
+              back
+            </button>
+
+            <div class="circle-image-container">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                class="image-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--seventh card-->
+    <div id="sectionSeventhCardInnerPage">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="name-about-product">
+              <h3 class="wcu-section-heading mt-3">Pink Jacquard Kurta Set</h3>
+              <p class="wcu-section-description">
+                <span class="style-span">STYLE CODE:</span>
+                TMKGBA2324
+              </p>
+            </div>
+            <div class="MRP-container d-flex flex-row">
+              <p class="mrp">
+                <span class="style-span">MRP</span>
+                <i class="fad fa-rupee icon"></i>
+                1,999
+              </p>
+              <p class="ml-auto">Inclusive of all taxes</p>
+            </div>
+
+            <div class="d-flex flex-row fixed-bottom">
+              <button class="add-to-button col-6" type="submit">
+                ADD TO CART
+              </button>
+              <button class="buy-button col-6" type="submit">BUY IT NOW</button>
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="display('sectionHomePage')"
+            >
+              back
+            </button>
+
+            <div class="circle-image-container">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                class="image-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--eight card-->
+    <div id="sectionEightCardInnerPage">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="name-about-product">
+              <h3 class="wcu-section-heading mt-3">Pink Jacquard Kurta Set</h3>
+              <p class="wcu-section-description">
+                <span class="style-span">STYLE CODE:</span>
+                TMKGBA2324
+              </p>
+            </div>
+            <div class="MRP-container d-flex flex-row">
+              <p class="mrp">
+                <span class="style-span">MRP</span>
+                <i class="fad fa-rupee icon"></i>
+                1,999
+              </p>
+              <p class="ml-auto">Inclusive of all taxes</p>
+            </div>
+
+            <div class="d-flex flex-row fixed-bottom">
+              <button class="add-to-button col-6" type="submit">
+                ADD TO CART
+              </button>
+              <button class="buy-button col-6" type="submit">BUY IT NOW</button>
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="display('sectionHomePage')"
+            >
+              back
+            </button>
+
+            <div class="circle-image-container">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                class="image-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--ninth card-->
+    <div id="sectionNineCardInnerPage">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="name-about-product">
+              <h3 class="wcu-section-heading mt-3">Pink Jacquard Kurta Set</h3>
+              <p class="wcu-section-description">
+                <span class="style-span">STYLE CODE:</span>
+                TMKGBA2324
+              </p>
+            </div>
+            <div class="MRP-container d-flex flex-row">
+              <p class="mrp">
+                <span class="style-span">MRP</span>
+                <i class="fad fa-rupee icon"></i>
+                1,999
+              </p>
+              <p class="ml-auto">Inclusive of all taxes</p>
+            </div>
+
+            <div class="d-flex flex-row fixed-bottom">
+              <button class="add-to-button col-6" type="submit">
+                ADD TO CART
+              </button>
+              <button class="buy-button col-6" type="submit">BUY IT NOW</button>
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="display('sectionHomePage')"
+            >
+              back
+            </button>
+
+            <div class="circle-image-container">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                class="image-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--tenth card-->
+    <div id="sectionTenCardInnerPage">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/full-shot-man-wearing-ukranian-shirt_23-2149318755.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/free-photo/close-up-smiley-man-wearing-traditional-shirt_23-2149318740.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="name-about-product">
+              <h3 class="wcu-section-heading mt-3">Pink Jacquard Kurta Set</h3>
+              <p class="wcu-section-description">
+                <span class="style-span">STYLE CODE:</span>
+                TMKGBA2324
+              </p>
+            </div>
+            <div class="MRP-container d-flex flex-row">
+              <p class="mrp">
+                <span class="style-span">MRP</span>
+                <i class="fad fa-rupee icon"></i>
+                1,999
+              </p>
+              <p class="ml-auto">Inclusive of all taxes</p>
+            </div>
+
+            <div class="d-flex flex-row fixed-bottom">
+              <button class="add-to-button col-6" type="submit">
+                ADD TO CART
+              </button>
+              <button class="buy-button col-6" type="submit">BUY IT NOW</button>
+            </div>
+            <button
+              class="btn btn-primary"
+              onclick="display('sectionHomePage')"
+            >
+              back
+            </button>
+
+            <div class="circle-image-container">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/06/36/36/56/1000_F_636365624_cP43FeRrPhxJVIBJz7fmB8ktrGMq5O49.jpg"
+                class="image-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>
